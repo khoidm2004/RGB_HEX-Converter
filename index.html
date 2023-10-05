@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex & Color Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Color & Hex Values Converter</h1>
+        <div id="converter_container">
+            <label for="rgbInput">RGB Value:</label>
+            <input id="rgbInput" type="text" placeholder="Insert values here e.g 255,0,0">
+            <button onclick="hexConverter()">Convert to Hex</button>
+            <br>
+            <br>
+            <label for="hexInput">Hex Value:</label>
+            <input id="hexInput" type="text" placeholder="Insert value here e.g #FF0000">
+            <button onclick="colorConverter()">Convert to color</button>
+            <br>
+            <br>
+            <p id="output"></p>
+            <br>
+            <br>
+            <div id="color_container"></div>            
+        </div>
+        <div>
+            <p><i class="fa-regular fa-copyright"></i> Copyright Author: Khoi Do</p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3adda35a67.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
